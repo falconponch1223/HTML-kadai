@@ -66,10 +66,10 @@ footer {
   height: 50px;
   background-color: #AAAAAA;
 }
-/*スマートフォン(425px)用の設定*/
-@media screen and (max-width:425px) {
+/*縦置きタブレット用(768px)用の設定*/
+@media screen and (max-width:768px) {
   .contents {
-    width: 100%;
+    width: 90%;
   }
   .box {
     width: 100%;
@@ -83,5 +83,7 @@ footer {
   .contents-no {
     width: 10%;
   }
-
+  .contents-photo {
+    background-position: center;
+  }
 }
